@@ -1,8 +1,7 @@
-# DrocsidAC
-<h1 align='center'><center><img src="https://media.discordapp.net/attachments/1110602772245643317/1139991895062364230/PacificLife.gif" alt="what image shows" height="20" width="20"></center>  DrocsidAC  <center><img src="https://media.discordapp.net/attachments/1110602772245643317/1139991895062364230/PacificLife.gif" alt="what image shows" height="20" width="20"></center></a></h1>
+<h1 align='center'><center><img src="https://media.discordapp.net/attachments/1110602772245643317/1139991895062364230/PacificLife.gif" alt="what image shows" height="20" width="20"></center>   DrocsidAC   <center><img src="https://media.discordapp.net/attachments/1110602772245643317/1139991895062364230/PacificLife.gif" alt="what image shows" height="20" width="20"></center></a></h1>
 <p align='center'><b><a href='https://discord.gg/qZqWHvQeC8'>Discord</a></b></h5>
 
-DROCSIDAC is the best FiveM anti-cheat made for free for you FiveM server owners and developers, this anti-cheat will help you get rid of cheaters and make a fair game for your players.
+DrocsidAC is the best FiveM anti-cheat made for free for you FiveM server owners and developers, this anti-cheat will help you get rid of cheaters and make a fair game for your players.
 
 ---
 
@@ -111,7 +110,7 @@ Server Side Protecet :
 - Add this text in your `server.cfg` :
 
 ```
-ensure DROCSIDAC
+ensure DrocsidAC
 ensure menuv
 ensure screenshot-basic
 ensure discord-screenshot
@@ -121,7 +120,7 @@ ensure discord-screenshot
 
 ### Whitelist
 
-- You can add your users identifiers in `DROCSIDAC/whitelists/fire-white.lua`
+- You can add your users identifiers in `DrocsidAC/whitelists/drocsid-white.lua`
   for example :
 
 ```
@@ -139,37 +138,37 @@ Admins = {
 
 ### Exports (Server Side)
 
-- `DROCSIDAC_CHANGE_TEMP_WHHITELIST` This export only for add and remove player from `Temporary whitelist`
+- `DrocsidAC_CHANGE_TEMP_WHHITELIST` This export only for add and remove player from `Temporary whitelist`
   for example :
 
 ```
 Add :
-exports['DROCSIDAC']:DROCSIDAC_CHANGE_TEMP_WHHITELIST(source, true)
+exports['DrocsidAC']:DrocsidAC_CHANGE_TEMP_WHHITELIST(source, true)
 
 Remove :
-exports['DROCSIDAC']:DROCSIDAC_CHANGE_TEMP_WHHITELIST(source, false)
+exports['DrocsidAC']:DrocsidAC_CHANGE_TEMP_WHHITELIST(source, false)
 ```
 
-- `DROCSIDAC_CHECK_TEMP_WHITELIST` This export only for check player from `Temporary whitelist` and get your result
+- `DrocsidAC_CHECK_TEMP_WHITELIST` This export only for check player from `Temporary whitelist` and get your result
   for example :
 
 ```
 for check :
-exports['DROCSIDAC']:DROCSIDAC_CHECK_TEMP_WHITELIST(source)
+exports['DrocsidAC']:DrocsidAC_CHECK_TEMP_WHITELIST(source)
 ```
 
-- `DROCSIDAC_ACTION` This export is for `BAN` or `KICK` or `WARN` the player
+- `DrocsidAC_ACTION` This export is for `BAN` or `KICK` or `WARN` the player
   for example :
 
 ```
 for BAN :
-exports['DROCSIDAC']:DROCSIDAC_ACTION(source, "BAN", reason, details)
+exports['DrocsidAC']:DrocsidAC_ACTION(source, "BAN", reason, details)
 
 for KICK :
-exports['DROCSIDAC']:DROCSIDAC_ACTION(source, "KICK", reason, details)
+exports['DrocsidAC']:DrocsidAC_ACTION(source, "KICK", reason, details)
 
 for WARN :
-exports['DROCSIDAC']:DROCSIDAC_ACTION(source, "WARN", reason, details)
+exports['DrocsidAC']:DrocsidAC_ACTION(source, "WARN", reason, details)
 ```
 
 ---
@@ -182,7 +181,7 @@ exports['DROCSIDAC']:DROCSIDAC_ACTION(source, "WARN", reason, details)
 
 ### Information
 
-DROCSIDAC is an FiveM anti cheat developed by **Amirreza Jaberi** as a script in 2021 & due to the circumstances, it was decided to make it public
+DrocsidAC is an FiveM anti cheat developed by **Victor** as a script in 2021 & due to the circumstances, it was decided to make it public
 
 ---
 
@@ -195,8 +194,8 @@ Guide wiki will add in github soon ...
 ### License
 
 ```
-    DROCSIDAC - FiveM Anti Cheat
-    Copyright (C) 2023  Amirreza Jaberi
+    DrocsidAC - FiveM Anti Cheat
+    Copyright (C) 2023  Victor
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
